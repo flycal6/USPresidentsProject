@@ -10,7 +10,6 @@ import javax.servlet.http.HttpSession;
 
 public class PresServlet extends HttpServlet {
 	private PresidentDAO presidentDAO;
-//	private Integer presNum;
 
 	@Override
 	public void init() throws ServletException {
@@ -30,7 +29,6 @@ public class PresServlet extends HttpServlet {
 		Integer presNum = (Integer) session.getAttribute("presNum");
 		if (presNum == null) {
 			presNum = 0;
-//			session.setAttribute("presNum", presNum);
 		}
 
 		String next = req.getParameter("next");

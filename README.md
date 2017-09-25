@@ -7,4 +7,4 @@ This a Tomcat/SpringMVC project listing all of the US Presidents
 * SpringMVC
 * Tomcat
 * JSP
-* * Bootstrap
+* Bootstrap
